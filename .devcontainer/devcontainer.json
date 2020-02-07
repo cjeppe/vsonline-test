@@ -1,6 +1,8 @@
 /* Contents of {repository-root}/.devcontainer/devcontainer.json */
 
 {
+    "image": "ubuntu:18.04",  
+    
     // Open port 3000 by default
     // "appPort": 3000,
   
@@ -8,7 +10,7 @@
     "extensions": [
       "ms-python.python",
       "ms-azuretools.vscode-azurefunctions"
-    ],
+    ]
   
     // Set remote color for Peacock
     // "settings": {
@@ -16,5 +18,5 @@
     // },
   
     // Run Bash script in .devcontainer directory
-    "postCreateCommand": "/bin/bash ./.devcontainer/install.sh > ~/install.log"
+    //"postCreateCommand": "/bin/bash ./.devcontainer/install.sh > ~/install.log"
   }
