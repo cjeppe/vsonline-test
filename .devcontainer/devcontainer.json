@@ -1,7 +1,7 @@
 /* Contents of {repository-root}/.devcontainer/devcontainer.json */
 
 {
-  "image": "ubuntu",  
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-18.04",  
 
   // Open port 3000 by default
   "appPort": 3000,
