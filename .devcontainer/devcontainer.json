@@ -8,7 +8,8 @@
   "extensions": [
     "ms-python.python",
     "ms-azuretools.vscode-azurefunctions",
-    "auchenberg.vscode-browser-preview"
+    "auchenberg.vscode-browser-preview",
+    "ms-vscode.azurecli"
   ],
 
   // Run Bash script in .devcontainer directory
