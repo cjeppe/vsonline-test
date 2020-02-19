@@ -13,7 +13,7 @@ cat /etc/apt/sources.list.d/dotnetdev.list
 # Update apt
 sudo apt-get update 
 
-# Install Azure Functions Core Tools
+# Install Azure Functions Core Tools and other tools...
 sudo apt-get install -y azure-functions-core-tools httpie bash-completion
 
 # Install Google chrome to use the auchenberg.vscode-browser-preview extension
